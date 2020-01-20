@@ -75,7 +75,7 @@ export default {
   },
   methods: {
     requestData() {
-      const key = 'AIzaSyA4bsHaqL9XM9xsRcLiSgvs9DV4xlNnIcA';
+      const key = process.env.VUE_APP_API_KEY;
       const { address } = this;
       if (address) {
         const url = `https://www.googleapis.com/civicinfo/v2/voterinfo?address=${address}&key=${key}&electionId=2000`;
@@ -100,10 +100,3 @@ export default {
   computed: {},
 };
 </script>
-
-<style lang="scss" scoped>
-.Contest {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-</style>
