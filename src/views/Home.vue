@@ -54,6 +54,7 @@
                 :key="channel.type"
                 v-for="channel in candidate.channels"
                 :href="channel.id"
+                 target="_blank"
               >{{channel.type}}</a>
             </div>
           </div>
