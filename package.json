@@ -1,5 +1,5 @@
 {
-  "name": "Voter Information",
+  "name": "voter-info",
   "version": "0.1.0",
   "private": true,
   "scripts": {
