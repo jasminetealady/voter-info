@@ -4,7 +4,7 @@
       <h1 class="text-blue font-bold text-4xl text-center font-body px-4">2020 Election Voter Information</h1>
       <div class="w-full sm:w-8/12 md:w-6/12 px-4">
         <div class="my-5 w-full items-center flex flex-col justify-between">
-          <input class="border shadow py-2 px-4 w-2/4 rounded" type="text" v-model="address" />
+          <input @keyup.enter="requestData()" class="border shadow py-2 px-4 w-2/4 rounded" type="text" v-model="address" />
           <button
             @click="requestData()"
             class="bg-red text-white rounded mt-4 py-2 px-4"
@@ -70,7 +70,7 @@ export default {
   data() {
     return {
       data: [],
-      address: '1082 davol st',
+      address: '',
     };
   },
   methods: {
