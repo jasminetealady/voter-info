@@ -101,6 +101,8 @@
         </div>
       </Ballot>
 
+      <a v-if="stateSelected" class="bg-red text-white font-bold tracking-wide rounded w-auto py-2 px-4 text-center mb-10" href="javascript:window.print()">Print or Save as PDF</a>
+
   </div>
 </template>
 
