@@ -112,7 +112,7 @@ export default {
   components: { Ballot },
   data() {
     return {
-      address: '560 Boylston St Boston',
+      address: '',
       stateSelected: false,
       error: null,
     };

@@ -21,7 +21,7 @@
 }
 
 .deadline-headline {
-  @apply text-gray-700 font-bold text-sm inline-block mb-4;
+  @apply text-gray-700 font-bold text-lg inline-block mb-4;
   @screen md {
     @apply text-gray-700 font-bold text-xl inline-block mb-4;
   }
@@ -35,14 +35,14 @@
 }
 
 .list-item {
-  @apply mb-1 text-gray-600 text-sm;
+  @apply mb-1 text-gray-600 text-base;
   @screen md {
     @apply mb-1 text-gray-600 text-lg;
   }
 }
 
 .label {
-  @apply text-sm font-bold mr-1;
+  @apply text-base font-bold mr-1;
   @screen md {
     @apply text-lg font-bold mr-1;
   }
