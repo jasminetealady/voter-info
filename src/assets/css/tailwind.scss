@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+
+.deadline {
+  @apply py-8 mx-6 flex justify-start items-center border-b;
+  @screen sm {
+    @apply py-8 mx-12 flex justify-start items-center border-b;
+  }
+}
+
+.deadline:last-of-type {
+  border: none;
+}
+
+
+.deadline-text {
+  @apply text-gray-600 text-4xl font-bold lowercase;
+}
+
+.deadline-headline {
+  @apply text-gray-700 font-bold text-sm inline-block mb-4;
+  @screen md {
+    @apply text-gray-700 font-bold text-xl inline-block mb-4;
+  }
+}
+
+.deadline-info {
+  @apply flex justify-between w-full items-center px-2;
+  @screen md {
+    @apply flex justify-between w-full items-center px-6;
+  }
+}
+
+.list-item {
+  @apply mb-1 text-gray-600 text-sm;
+  @screen md {
+    @apply mb-1 text-gray-600 text-lg;
+  }
+}
+
+.label {
+  @apply text-sm font-bold mr-1;
+  @screen md {
+    @apply text-lg font-bold mr-1;
+  }
+}
+
+.icon {
+  @apply h-16 mr-5;
+  @screen sm {
+    @apply h-24 mr-10;
+  }
+}
+
+.ballot-bar {
+  @apply py-4 flex items-center w-full relative;
+  background: #f3f5ff;
+}
+
+.ballot-bar-header {
+  @apply text-gray-700 text-3xl font-bold;
+}
+
+

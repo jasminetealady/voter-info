@@ -1,0 +1,665 @@
+[
+  {
+    "State": "Alabama",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/15/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "02/15/2020",
+    "State Primary": "03/03/2020"
+ },
+  {
+    "State": "Alaska",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/19/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/04/2020",
+       "Caucus Date (R)": "03/03/2020"
+    },
+    "Presidential Primary Registration Deadline (R)": "03/03/2020",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "08/18/2020"
+ },
+  {
+    "State": "Arizona",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/18/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/17/2020",
+       "Caucus Date (R)": "04/25/2019"
+    },
+    "Presidential Primary Registration Deadline (R)": "04/25/2020",
+    "State Primary Registration Date": "07/06/2020",
+    "State Primary": "08/04/2020"
+ },
+  {
+    "State": "Arkansas",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/04/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "California",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/17/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "02/17/2020",
+    "State Primary": "03/03/2020"
+ },
+  {
+    "State": "Colorado",
+    "Federal Mail-in Registration Deadline": "10/26/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/24/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "06/22/2020",
+    "State Primary": "06/30/2020"
+ },
+  {
+    "State": "Connecticut",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "04/23/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/28/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Delaware",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/04/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/28/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "District of Columbia",
+    "Federal Mail-in Registration Deadline": "10/13/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "05/12/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "06/02/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "05/12/2020",
+    "State Primary": "06/02/2019"
+ },
+  {
+    "State": "Florida",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/18/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/17/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "07/27/2020",
+    "State Primary": "08/25/2020"
+ },
+  {
+    "State": "Georgia",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/24/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/24/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "04/20/2020",
+    "State Primary": "05/19/2020"
+ },
+  {
+    "State": "Hawaii",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/18/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/04/2020",
+       "Caucus Date (R)": "03/10/2020"
+    },
+    "Presidential Primary Registration Deadline (R)": "03/10/2020",
+    "State Primary Registration Date": "07/09/2020",
+    "State Primary": "08/08/2020"
+ },
+  {
+    "State": "Idaho",
+    "Federal Mail-in Registration Deadline": "10/09/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/14/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/10/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "04/24/2020",
+    "State Primary": "05/19/2020"
+ },
+  {
+    "State": "Illinois",
+    "Federal Mail-in Registration Deadline": "10/06/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/18/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/17/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Indiana",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/06/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "05/05/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Iowa",
+    "Federal Mail-in Registration Deadline": "10/24/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/03/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "02/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "05/22/2020",
+    "State Primary": "06/02/2020"
+ },
+  {
+    "State": "Kansas",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "03/05/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "05/02/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "03/09/2020",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Kentucky",
+    "Federal Mail-in Registration Deadline": "10/07/2019",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/20/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "05/19/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "04/20/2020",
+    "State Primary": "05/19/2020"
+ },
+  {
+    "State": "Louisiana",
+    "Federal Mail-in Registration Deadline": "11/04/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "03/04/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/04/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "10/30/2020",
+    "State Primary": "11/03/2020"
+ },
+  {
+    "State": "Maine",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/10/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "06/09/2020"
+ },
+  {
+    "State": "Maryland",
+    "Federal Mail-in Registration Deadline": "10/13/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "04/07/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/28/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Massachusetts",
+    "Federal Mail-in Registration Deadline": "10/14/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/12/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Michigan",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/24/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/10/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Minnesota",
+    "Federal Mail-in Registration Deadline": "10/13/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/11/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "07/21/2020",
+    "State Primary": "08/11/2020"
+ },
+  {
+    "State": "Mississippi",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/10/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/10/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Missouri",
+    "Federal Mail-in Registration Deadline": "10/07/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/12/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/10/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "07/08/2020",
+    "State Primary": "08/04/2020"
+ },
+  {
+    "State": "Montana",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "05/04/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "06/02/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Nebraska",
+    "Federal Mail-in Registration Deadline": "10/16/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/24/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "05/12/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "04/24/2020",
+    "State Primary": "05/12/2020"
+ },
+  {
+    "State": "Nevada",
+    "Federal Mail-in Registration Deadline": "10/06/2020",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/22/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "02/22/2020",
+       "Caucus Date (R)": "05/15/2020"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "05/12/2020",
+    "State Primary": "06/09/2020"
+ },
+  {
+    "State": "New Hampshire",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/04/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "02/11/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "New Jersey",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "05/12/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "06/02/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "New Mexico",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "05/05/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "06/02/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "New York",
+    "Federal Mail-in Registration Deadline": "10/22/2019",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/03/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/28/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "05/29/2020",
+    "State Primary": "06/23/2020"
+ },
+  {
+    "State": "North Carolina",
+    "Federal Mail-in Registration Deadline": "10/09/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/07/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "02/07/2020",
+    "State Primary": "03/03/2020"
+ },
+  {
+    "State": "North Dakota",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "N/A",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/10/2020",
+       "Caucus Date (R)": "03/27/2020"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "06/09/2020"
+ },
+  {
+    "State": "Ohio",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/18/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/17/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Oklahoma",
+    "Federal Mail-in Registration Deadline": "10/09/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/07/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "06/05/2020",
+    "State Primary": "06/30/2020"
+ },
+  {
+    "State": "Oregon",
+    "Federal Mail-in Registration Deadline": "10/13/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/28/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "05/19/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Pennsylvania",
+    "Federal Mail-in Registration Deadline": "10/19/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/13/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/28/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Rhode Island",
+    "Federal Mail-in Registration Deadline": "10/04/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "03/29/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/28/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "08/16/2020",
+    "State Primary": "09/15/2020"
+ },
+  {
+    "State": "South Carolina",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "01/30/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "02/29/2020",
+       "Caucus Date (R)": "05/02/2020"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "South Dakota",
+    "Federal Mail-in Registration Deadline": "10/19/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "05/18/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "06/02/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Tennessee",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/03/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "07/07/2020",
+    "State Primary": "08/06/2020"
+ },
+  {
+    "State": "Texas",
+    "Federal Mail-in Registration Deadline": "10/05/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/03/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Utah",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/03/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "06/23/2020"
+ },
+  {
+    "State": "Vermont",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "02/03/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Virginia",
+    "Federal Mail-in Registration Deadline": "10/13/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/10/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/03/2020",
+       "Caucus Date (R)": "04/25/2020"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "05/18/2020",
+    "State Primary": "06/09/2020"
+ },
+  {
+    "State": "Washington",
+    "Federal Mail-in Registration Deadline": "10/26/2020",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "02/03/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "03/10/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "07/27/2020",
+    "State Primary": "08/04/2020"
+ },
+  {
+    "State": "West Virginia",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "No",
+    "Presidential Primary Registration Deadline (D)": "04/21/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "05/12/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Wisconsin",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "03/18/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/07/2020",
+       "Caucus Date (R)": "N/A"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ },
+  {
+    "State": "Wyoming",
+    "Federal Mail-in Registration Deadline": "N/A",
+    "Federal Election Day Registration": "Yes",
+    "Presidential Primary Registration Deadline (D)": "03/20/2020",
+    "Presidential Primary": {
+       "Caucus Date (D)": "04/04/2020",
+       "Caucus Date (R)": "04/12/2020"
+    },
+    "Presidential Primary Registration Deadline (R)": "N/A",
+    "State Primary Registration Date": "N/A",
+    "State Primary": "N/A"
+ }
+ ]
