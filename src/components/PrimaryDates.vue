@@ -87,14 +87,14 @@
           <input
             @keyup.enter="requestData()"
             placeholder="Valid US Residential Address"
-            class="text-gray-700 border-gray-300 border py-2 px-4 w-8/12 md:w-2/4 rounded"
+            class="search text-gray-700 border-gray-300 border py-2 px-4 w-10/12 md:w-2/4 rounded"
             type="text"
             v-model="address"
           />
           <span class="text-blue mt-4 font-bold" v-if="error">* {{error}} *</span>
           <button
             @click="requestData()"
-            class="bg-red text-white font-bold tracking-wide rounded mt-8 py-2 px-4"
+            class="bg-red text-white font-bold tracking-wide rounded w-10/12 md:w-2/4 mt-8 py-2 px-4"
           >
             Retrieve Voter Information
           </button>
@@ -132,7 +132,7 @@ export default {
         } catch (err) {
           this.error = 'Invalid Search Address'
         }
-      }
+      } else this.error = 'Must enter valid search address'
     },
     presidentialPrimaryParty(key) {
       return key === 'Caucus Date (D)' ? 'D' : 'R';
