@@ -4,30 +4,38 @@
 @tailwind screens;
 
 
-.deadline {
-  @apply py-8 mx-6 flex justify-start items-center border-b;
-  @screen sm {
-    @apply py-8 mx-12 flex justify-start items-center border-b;
-  }
-}
-
-.deadline:last-of-type {
-  border: none;
+.gradient {
+  background: linear-gradient(#e66465, #9198e5);
 }
 
 .search {
   -webkit-appearance: none;
 }
 
+.deadline {
+  @apply py-8 mx-6 flex justify-start items-center border-b h-48;
+  @screen sm {
+    @apply py-8 mx-12 flex justify-start items-center border-b;
+  }
+}
+
+
 
 .deadline-text {
   @apply text-gray-600 text-4xl font-bold lowercase;
 }
 
-.deadline-headline {
-  @apply text-gray-700 font-bold text-lg inline-block mb-4;
+.GrayHeader {
+  @apply text-gray-700 font-bold text-lg inline-block;
   @screen md {
-    @apply text-gray-700 font-bold text-xl inline-block mb-4;
+    @apply text-gray-700 font-bold text-xl inline-block;
+  }
+}
+
+.SmallHeader {
+  @apply text-gray-700 font-bold text-lg inline-block;
+  @screen md {
+    @apply text-gray-700 font-bold text-xl inline-block;
   }
 }
 
@@ -60,12 +68,40 @@
 }
 
 .ballot-bar {
-  @apply py-4 flex items-center w-full relative;
-  background: #f3f5ff;
+  @apply py-4 flex items-center w-full relative bg-lightblue;
 }
 
 .ballot-bar-header {
   @apply text-gray-700 text-3xl font-bold;
+}
+
+.modal {
+  top: 28%;
+}
+
+.Contest {
+  @apply p-5;
+}
+
+.Candidate {
+  @apply text-center w-full flex rounded shadow flex-col items-center;
+}
+
+.Contest-Grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(50%, 1fr) );
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+  @screen sm {
+    grid-template-columns: repeat( auto-fit, minmax(25%, 1fr) );
+  }
+}
+
+.Registered {
+  @apply py-8 mx-6 flex justify-start items-center border-b h-48;
+  @screen sm {
+    @apply py-8 mx-12 flex justify-start items-center border-b;
+  }
 }
 
 
