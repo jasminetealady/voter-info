@@ -1,37 +1,45 @@
 <template>
-  <div class="home">
-    <div class="header w-full min-h-screen flex flex-col items-center justify-center py-10">
-      <h1
-        class="text-blue font-bold text-4xl text-center font-body px-4"
-      >2020 Voter Information</h1>
-      <div class="w-full sm:w-8/12 md:w-6/12 px-4">
-        <div class="my-5 w-full items-center flex flex-col justify-between">
-          <input
-            @keyup.enter="requestData()"
-            placeholder="Enter valid US residential address"
-            class="text-gray-700 border-gray-300 border py-2 px-4 w-8/12 md:w-2/4 rounded"
-            type="text"
-            v-model="address"
-          />
-          <button
-            @click="requestData()"
-            class="bg-red text-white font-bold tracking-wide rounded mt-8 py-2 px-4"
-          >Retrieve Voter Information</button>
-        </div>
-
-
+  <div class="w-full flex justify-center gradient min-h-screen">
+    <SearchModal v-if="!loading">
+      <div class="my-20 w-full items-center flex flex-col justify-between">
+        <h3 class="text-red text-3xl mb-10 font-bold">Step 1</h3>
+        <p
+          class="font-bold text-gray-700 text-xl text-center px-4 md:px-12 lg:px-24 mb-10 whitespace-pre-wrap"
+        >Please enter a valid US residential address to retrieve your voter information for the 2020 election</p>
+        <input
+          @keyup.enter="requestData()"
+          placeholder="Please Enter a Valid US Residential Address"
+          class="search text-gray-700 border-gray-300 border py-2 px-4 w-10/12 md:w-2/4 rounded"
+          type="text"
+          v-model="address"
+        />
+        <span class="text-blue mt-4 font-bold" v-if="error">* {{error}} *</span>
+        <button
+          @click="requestData()"
+          class="bg-red text-white font-bold tracking-wide rounded w-10/12 md:w-2/4 mt-8 py-2 px-4"
+        >Retrieve Voter Information</button>
       </div>
-    </div>
-
+    </SearchModal>
+    <SearchModal v-else>
+      <div class="my-20 w-full items-center flex flex-col justify-between">
+        <p class="font-bold text-xl text-gray-700">Loading ...</p>
+      </div>
+    </SearchModal>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+import SearchModal from '@/components/SearchModal.vue'
 
 export default {
+  components: { SearchModal },
   data() {
     return {
-      address: '560 Boylston St Boston',
+      address: '',
+      stateSelected: false,
+      error: null,
+      loading: false
     }
   },
   methods: {
@@ -39,16 +47,26 @@ export default {
       const key = process.env.VUE_APP_API_KEY
       const { address } = this
       if (address) {
-        const url = `https://www.googleapis.com/civicinfo/v2/voterinfo?address=${address}&key=${key}&electionId=2000`
-        await fetch(url)
-          .then(resp => resp.json())
-          .then(data => (this.$store.dispatch('setData', data)))
-        this.$router.push('/dates')
-      }
-    },
+        this.loading = true
+        try {
+          const url = `https://www.googleapis.com/civicinfo/v2/voterinfo?address=${address}&key=${key}&electionId=2000`
+          await fetch(url)
+            .then(resp => resp.json())
+            .then(data => this.$store.dispatch('setData', data))
+          this.error = null
+          this.$router.push('/dashboard')
+        } catch (err) {
+          this.error = 'Invalid Search Address'
+        }
+        this.loading = false
+      } else this.error = 'Must enter valid search address'
+    }
   },
+  computed: mapState({
+    primary: state => state.primary
+  })
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 </style>

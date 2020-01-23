@@ -1,6 +1,7 @@
 [
   {
     "State": "Alabama",
+    "Url": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/15/2020",
@@ -14,6 +15,7 @@
  },
   {
     "State": "Alaska",
+    "Url": "https://myvoterinformation.alaska.gov",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/19/2020",
@@ -27,6 +29,7 @@
  },
   {
     "State": "Arizona",
+    "Url": "https://voter.azsos.gov/VoterView/RegistrantSearch",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/18/2020",
@@ -40,6 +43,7 @@
  },
   {
     "State": "Arkansas",
+    "Url": "https://www.voterview.ar-nova.org/VoterView/RegistrantSearch",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/04/2020",
@@ -53,6 +57,7 @@
  },
   {
     "State": "California",
+    "Url": "https://voterstatus.sos.ca.gov",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/17/2020",
@@ -66,6 +71,7 @@
  },
   {
     "State": "Colorado",
+    "Url": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
     "Federal Mail-in Registration Deadline": "10/26/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/24/2020",
@@ -79,6 +85,7 @@
  },
   {
     "State": "Connecticut",
+    "Url": "https://portaldir.ct.gov/sots/LookUp.aspx",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "04/23/2020",
@@ -92,6 +99,7 @@
  },
   {
     "State": "Delaware",
+    "Url": "https://ivote.de.gov/voterlogin.aspx",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/04/2020",
@@ -105,6 +113,7 @@
  },
   {
     "State": "District of Columbia",
+    "Url": "https://www.vote4dc.com/UpdateApply/SearchOldVoter",
     "Federal Mail-in Registration Deadline": "10/13/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "05/12/2020",
@@ -118,6 +127,7 @@
  },
   {
     "State": "Florida",
+    "Url": "https://registration.elections.myflorida.com/CheckVoterStatus",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/18/2020",
@@ -131,6 +141,7 @@
  },
   {
     "State": "Georgia",
+    "Url": "https://www.mvp.sos.ga.gov/MVP/mvp",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/24/2020",
@@ -144,6 +155,7 @@
  },
   {
     "State": "Hawaii",
+    "Url": "https://olvr.hawaii.gov/%28S%28vb2rcnebimyjdjcs5q22kazp%29%29/Default.aspx",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/18/2020",
@@ -157,6 +169,7 @@
  },
   {
     "State": "Idaho",
+    "Url": "https://apps.idahovotes.gov/YourPollingPlace/AmIRegistered.aspx",
     "Federal Mail-in Registration Deadline": "10/09/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/14/2020",
@@ -170,6 +183,7 @@
  },
   {
     "State": "Illinois",
+    "Url": "https://ova.elections.il.gov/RegistrationLookup.aspx",
     "Federal Mail-in Registration Deadline": "10/06/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/18/2020",
@@ -183,6 +197,7 @@
  },
   {
     "State": "Indiana",
+    "Url": "https://indianavoters.in.gov/",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/06/2020",
@@ -196,6 +211,7 @@
  },
   {
     "State": "Iowa",
+    "Url": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
     "Federal Mail-in Registration Deadline": "10/24/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/03/2020",
@@ -209,6 +225,7 @@
  },
   {
     "State": "Kansas",
+    "Url": "https://myvoteinfo.voteks.org/VoterView/RegistrantSearch",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "03/05/2020",
@@ -222,6 +239,7 @@
  },
   {
     "State": "Kentucky",
+    "Url": "https://vrsws.sos.ky.gov/VIC",
     "Federal Mail-in Registration Deadline": "10/07/2019",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/20/2020",
@@ -235,6 +253,7 @@
  },
   {
     "State": "Louisiana",
+    "Url": "https://voterportal.sos.la.gov/Home/VoterLogin",
     "Federal Mail-in Registration Deadline": "11/04/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "03/04/2020",
@@ -248,6 +267,7 @@
  },
   {
     "State": "Maine",
+    "Url": "https://www1.maine.gov/portal/government/edemocracy/voter_lookup.php",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/10/2020",
@@ -261,6 +281,7 @@
  },
   {
     "State": "Maryland",
+    "Url": "https://voterservices.elections.maryland.gov/VoterSearch",
     "Federal Mail-in Registration Deadline": "10/13/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "04/07/2020",
@@ -274,6 +295,7 @@
  },
   {
     "State": "Massachusetts",
+    "Url": "https://www.sec.state.ma.us/voterregistrationsearch/myvoterregstatus.aspx",
     "Federal Mail-in Registration Deadline": "10/14/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/12/2020",
@@ -287,6 +309,7 @@
  },
   {
     "State": "Michigan",
+    "Url": "https://mvic.sos.state.mi.us",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/24/2020",
@@ -300,6 +323,7 @@
  },
   {
     "State": "Minnesota",
+    "Url": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx",
     "Federal Mail-in Registration Deadline": "10/13/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/11/2020",
@@ -313,6 +337,7 @@
  },
   {
     "State": "Mississippi",
+    "Url": "https://www.msegov.com/sos/voter_registration/AmIRegistered",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/10/2020",
@@ -326,6 +351,7 @@
  },
   {
     "State": "Missouri",
+    "Url": "https://s1.sos.mo.gov/elections/voterlookup",
     "Federal Mail-in Registration Deadline": "10/07/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/12/2020",
@@ -339,6 +365,7 @@
  },
   {
     "State": "Montana",
+    "Url": "https://app.mt.gov/voterinfo/",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "05/04/2020",
@@ -352,6 +379,7 @@
  },
   {
     "State": "Nebraska",
+    "Url": "https://www.votercheck.necvr.ne.gov/VoterView/RegistrantSearch",
     "Federal Mail-in Registration Deadline": "10/16/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/24/2020",
@@ -365,6 +393,7 @@
  },
   {
     "State": "Nevada",
+    "Url": "https://www.nvsos.gov/votersearch/",
     "Federal Mail-in Registration Deadline": "10/06/2020",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/22/2020",
@@ -378,6 +407,7 @@
  },
   {
     "State": "New Hampshire",
+    "Url": "https://app.sos.nh.gov/Public/PartyInfo.aspx",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/04/2020",
@@ -391,6 +421,7 @@
  },
   {
     "State": "New Jersey",
+    "Url": "https://voter.njsvrs.com/PublicAccess/servlet/com.saber.publicaccess.control.PublicAccessNavigationServlet?USERPROCESS=PublicSearch",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "05/12/2020",
@@ -404,6 +435,7 @@
  },
   {
     "State": "New Mexico",
+    "Url": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "05/05/2020",
@@ -417,6 +449,7 @@
  },
   {
     "State": "New York",
+    "Url": "https://voterlookup.elections.ny.gov",
     "Federal Mail-in Registration Deadline": "10/22/2019",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/03/2020",
@@ -430,6 +463,7 @@
  },
   {
     "State": "North Carolina",
+    "Url": "https://vt.ncsbe.gov/RegLkup",
     "Federal Mail-in Registration Deadline": "10/09/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/07/2020",
@@ -443,6 +477,7 @@
  },
   {
     "State": "North Dakota",
+    "Url": "https://vip.sos.nd.gov/WhereToVoteID.aspx?tab=VoterLookup&amp;ptlPKID=7&amp;ptlhPKID=51",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "N/A",
@@ -456,6 +491,7 @@
  },
   {
     "State": "Ohio",
+    "Url": "https://voterlookup.sos.state.oh.us/voterlookup.aspx",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/18/2020",
@@ -469,6 +505,7 @@
  },
   {
     "State": "Oklahoma",
+    "Url": "https://services.okelections.us/voterSearch.aspx",
     "Federal Mail-in Registration Deadline": "10/09/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/07/2020",
@@ -482,6 +519,7 @@
  },
   {
     "State": "Oregon",
+    "Url": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng",
     "Federal Mail-in Registration Deadline": "10/13/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/28/2020",
@@ -495,6 +533,7 @@
  },
   {
     "State": "Pennsylvania",
+    "Url": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
     "Federal Mail-in Registration Deadline": "10/19/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/13/2020",
@@ -508,6 +547,7 @@
  },
   {
     "State": "Rhode Island",
+    "Url": "https://vote.sos.ri.gov/",
     "Federal Mail-in Registration Deadline": "10/04/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "03/29/2020",
@@ -521,6 +561,7 @@
  },
   {
     "State": "South Carolina",
+    "Url": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "01/30/2020",
@@ -534,6 +575,7 @@
  },
   {
     "State": "South Dakota",
+    "Url": "https://vip.sdsos.gov/viplogin.aspx",
     "Federal Mail-in Registration Deadline": "10/19/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "05/18/2020",
@@ -547,6 +589,7 @@
  },
   {
     "State": "Tennessee",
+    "Url": "https://tnmap.tn.gov/voterlookup/",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/03/2020",
@@ -560,6 +603,7 @@
  },
   {
     "State": "Texas",
+    "Url": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
     "Federal Mail-in Registration Deadline": "10/05/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/03/2020",
@@ -573,6 +617,7 @@
  },
   {
     "State": "Utah",
+    "Url": "https://votesearch.utah.gov/voter-search/search/search-by-voter/voter-info",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/03/2020",
@@ -586,6 +631,7 @@
  },
   {
     "State": "Vermont",
+    "Url": "https://mvp.sec.state.vt.us/",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "02/03/2020",
@@ -599,6 +645,7 @@
  },
   {
     "State": "Virginia",
+    "Url": "https://vote.elections.virginia.gov/VoterInformation",
     "Federal Mail-in Registration Deadline": "10/13/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/10/2020",
@@ -612,6 +659,7 @@
  },
   {
     "State": "Washington",
+    "Url": "https://voter.votewa.gov/WhereToVote.aspx",
     "Federal Mail-in Registration Deadline": "10/26/2020",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "02/03/2020",
@@ -625,6 +673,7 @@
  },
   {
     "State": "West Virginia",
+    "Url": "https://services.sos.wv.gov/Elections/Voter/AmIRegisteredToVote",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "No",
     "Presidential Primary Registration Deadline (D)": "04/21/2020",
@@ -638,6 +687,7 @@
  },
   {
     "State": "Wisconsin",
+    "Url": "https://myvote.wi.gov/en-us/MyVoterInfo",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "03/18/2020",
@@ -651,6 +701,7 @@
  },
   {
     "State": "Wyoming",
+    "Url": "https://soswy.state.wy.us/elections/registeringtovote.aspx",
     "Federal Mail-in Registration Deadline": "N/A",
     "Federal Election Day Registration": "Yes",
     "Presidential Primary Registration Deadline (D)": "03/20/2020",

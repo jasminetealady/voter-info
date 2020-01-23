@@ -10,9 +10,12 @@ module.exports = {
         red: '#E45C61',
         purple: '#524179e3',
         green: '#81d29d',
+        lightblue: '#f3f5ff',
       },
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/custom-forms'),
+  ],
 };

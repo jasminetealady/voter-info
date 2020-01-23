@@ -7,11 +7,14 @@
           <img class="icon" src="../images/svg/029-letter.svg" />
           <div class="deadline-info">
             <ul>
-              <span class="deadline-headline">Mail In By:</span>
+              <span class="GrayHeader">Mail In By:</span>
               <li class="list-item">
-                <span class="text-pink-500 label">General:</span> {{ mailInDate }}
+                <span class="text-pink-500 label">General:</span>
+                {{ mailInDate }}
               </li>
-              <li class="list-item"><span class="text-indigo-500 label">Primary:</span> TBD</li>
+              <li class="list-item">
+                <span class="text-indigo-500 label">Primary:</span> Unknown
+              </li>
             </ul>
           </div>
         </div>
@@ -21,7 +24,7 @@
           <img class="icon" src="../images/svg/043-form.svg" />
           <div class="deadline-info">
             <ul>
-              <span class="deadline-headline">Register Primary By:</span>
+              <span class="GrayHeader">Register Primary By:</span>
               <li class="list-item">
                 <span class="label" :class="{ 'text-blue': demRegDeadline }">D:</span>
                 {{ demRegDeadline }}
@@ -40,15 +43,14 @@
           <img class="icon" src="../images/svg/046-vote.svg" />
           <div class="deadline-info">
             <ul>
-              <span class="deadline-headline">Vote Primary On:</span>
+              <span class="GrayHeader">Vote Primary On:</span>
               <li
                 :key="value"
                 class="list-item"
                 v-for="(value, key) in primary['Presidential Primary']"
               >
-                <span class="label" :class="partyColor(key)"
-                  >{{ presidentialPrimaryParty(key) }}: </span
-                >{{ formatDate(value) }}
+                <span class="label" :class="partyColor(key)">{{ presidentialPrimaryParty(key) }}:</span>
+                {{ formatDate(value) }}
               </li>
             </ul>
           </div>
@@ -64,7 +66,7 @@
         >
           State Primary Registration Date:
           {{ primary["State Primary Registration Date"] }}
-        </p> -->
+        </p>-->
 
         <!--State Primary Date-->
         <!-- <p
@@ -73,42 +75,43 @@
         >
           State Primary:
           {{ primary["State Primary"] }}
-        </p> -->
+        </p>-->
       </div>
     </Ballot>
     <Ballot title="2020 Election Dates" type="search" v-else>
-        <div class="my-20 w-full items-center flex flex-col justify-between">
-          <p
-            class="font-bold text-gray-700 text-xl text-center px-4 md:px-12 lg:px-24 mb-10 whitespace-pre-wrap"
-          >
-            Please enter a valid US residential address to receive your 2020 election registration
-            and voting deadlines
-          </p>
-          <input
-            @keyup.enter="requestData()"
-            placeholder="Valid US Residential Address"
-            class="search text-gray-700 border-gray-300 border py-2 px-4 w-10/12 md:w-2/4 rounded"
-            type="text"
-            v-model="address"
-          />
-          <span class="text-blue mt-4 font-bold" v-if="error">* {{error}} *</span>
-          <button
-            @click="requestData()"
-            class="bg-red text-white font-bold tracking-wide rounded w-10/12 md:w-2/4 mt-8 py-2 px-4"
-          >
-            Retrieve Voter Information
-          </button>
-        </div>
-      </Ballot>
+      <div class="my-20 w-full items-center flex flex-col justify-between">
+        <p
+          class="font-bold text-gray-700 text-xl text-center px-4 md:px-12 lg:px-24 mb-10 whitespace-pre-wrap"
+        >
+          Please enter a valid US residential address to receive your 2020 election registration
+          and voting deadlines
+        </p>
+        <input
+          @keyup.enter="requestData()"
+          placeholder="Valid US Residential Address"
+          class="search text-gray-700 border-gray-300 border py-2 px-4 w-10/12 md:w-2/4 rounded"
+          type="text"
+          v-model="address"
+        />
+        <span class="text-blue mt-4 font-bold" v-if="error">* {{error}} *</span>
+        <button
+          @click="requestData()"
+          class="bg-red text-white font-bold tracking-wide rounded w-10/12 md:w-2/4 mt-8 py-2 px-4"
+        >Retrieve Voter Information</button>
+      </div>
+    </Ballot>
 
-      <a v-if="stateSelected" class="bg-red text-white font-bold tracking-wide rounded w-auto py-2 px-4 text-center mb-10" href="javascript:window.print()">Print or Save as PDF</a>
-
+    <a
+      v-if="stateSelected"
+      class="bg-red text-white font-bold tracking-wide rounded w-auto py-2 px-4 text-center mb-10"
+      href="javascript:window.print()"
+    >Print or Save as PDF</a>
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex';
-import Ballot from './Ballot.vue';
+import { mapState } from 'vuex'
+import Ballot from './Ballot.vue'
 
 export default {
   components: { Ballot },
@@ -116,16 +119,16 @@ export default {
     return {
       address: '',
       stateSelected: false,
-      error: null,
-    };
+      error: null
+    }
   },
   methods: {
     async requestData() {
-      const key = process.env.VUE_APP_API_KEY;
-      const { address } = this;
+      const key = process.env.VUE_APP_API_KEY
+      const { address } = this
       if (address) {
         try {
-          const url = `https://www.googleapis.com/civicinfo/v2/voterinfo?address=${address}&key=${key}&electionId=2000`;
+          const url = `https://www.googleapis.com/civicinfo/v2/voterinfo?address=${address}&key=${key}&electionId=2000`
           await fetch(url)
             .then(resp => resp.json())
             .then(data => this.$store.dispatch('setData', data))
@@ -137,33 +140,41 @@ export default {
       } else this.error = 'Must enter valid search address'
     },
     presidentialPrimaryParty(key) {
-      return key === 'Caucus Date (D)' ? 'D' : 'R';
+      return key === 'Caucus Date (D)' ? 'D' : 'R'
     },
     formatDate(date) {
       if (date && date !== 'N/A') {
-        return new Date(date).toDateString();
-      } return 'Date Unknown';
+        return new Date(date).toDateString()
+      }
+      return 'N/A'
     },
     partyColor(key) {
       if (this.presidentialPrimaryParty(key) === 'D') {
-        return 'text-blue';
-      } return 'text-red';
-    },
+        return 'text-blue'
+      }
+      return 'text-red'
+    }
   },
   computed: mapState({
     primary: state => state.primary,
     stateSelected: state => state.userState,
     mailInDate() {
-      return this.formatDate(this.primary['Federal Mail-in Registration Deadline']);
+      return this.formatDate(
+        this.primary['Federal Mail-in Registration Deadline']
+      )
     },
     demRegDeadline() {
-      return this.formatDate(this.primary['Presidential Primary Registration Deadline (D)']);
+      return this.formatDate(
+        this.primary['Presidential Primary Registration Deadline (D)']
+      )
     },
     repRegDeadline() {
-      return this.formatDate(this.primary['Presidential Primary Registration Deadline (R)']);
-    },
-  }),
-};
+      return this.formatDate(
+        this.primary['Presidential Primary Registration Deadline (R)']
+      )
+    }
+  })
+}
 </script>
 
 <style lang="scss"></style>
