@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded shadow absolute modal w-11/12 sm:w-8/12 xl:w-5/12">
+  <div class="bg-white rounded shadow modal w-11/12 sm:w-8/12 xl:w-5/12">
     <slot />
   </div>
 </template>
