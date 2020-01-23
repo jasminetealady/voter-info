@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-center gradient min-h-screen">
+  <div class="w-full flex items-center justify-center gradient min-h-screen">
     <SearchModal v-if="!loading">
       <div class="my-20 w-full items-center flex flex-col justify-between">
         <h3 class="text-red text-3xl mb-10 font-bold">Step 1</h3>
