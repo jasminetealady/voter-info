@@ -2,7 +2,7 @@
   <div class="w-full">
     <div class="Registered">
       <img v-if="yes === '' || yes" class="icon" src="../images/svg/050-yes.svg" />
-      <img v-if="no" class="icon" src="../images/svg/049-no.svg" />
+      <img v-if="no" class="icon" src="../images/svg/no.svg" />
 
       <div class="flex items-center justify-between w-full">
         <h3 v-if="!yes && !no" class="GrayHeader">Are you registered to vote?</h3>
