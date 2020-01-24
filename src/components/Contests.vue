@@ -78,7 +78,7 @@
       </div>
     </div>
 
-    <div v-else class="mt-6 deadline flex flex-col text-red">
+    <div v-else class="mt-6 ContestsError flex flex-col text-red">
       <p class="label">
         All data for Contests and Candidates is sourced from the
         <a
@@ -90,7 +90,7 @@
         v-if="!seeSampleData && data.contests"
         href="#"
         @click.prevent="seeSampleData = true"
-        class="mt-6 mb-20 block bg-red text-white font-bold tracking-wide rounded w-auto p-2 cursor-pointer text-center"
+        class="mt-10 mb-20 block bg-red text-white font-bold tracking-wide rounded w-auto p-2 cursor-pointer text-center"
       >See Sample Data</a>
     </div>
   </div>
