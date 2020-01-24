@@ -19,6 +19,12 @@
   }
 }
 
+.ContestsError {
+  @apply py-8 mx-6 flex justify-start items-center border-b;
+  @screen sm {
+    @apply py-8 mx-12 flex justify-start items-center border-b;
+  }
+}
 
 
 .deadline-text {

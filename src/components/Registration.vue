@@ -11,7 +11,7 @@
           v-if="no"
           :href="url"
           target="_blank"
-          class="bg-red text-white font-bold tracking-wide rounded w-auto p-2 cursor-pointer text-center"
+          class="bg-red text-white font-bold tracking-wide rounded w-auto p-2 cursor-pointer text-center whitespace-no-wrap sm:whitespace-normal text-xs sm:text-base"
         >Check Registration</a>
         <div class="flex flex-col sm:flex-row ml-6">
           <label class="flex items-center">
