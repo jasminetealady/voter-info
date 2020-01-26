@@ -34,10 +34,10 @@ export default {
     }
   },
   mounted() {
-    this.isLg = window.innerWidth > 1024
+    this.isLg = window.innerWidth >= 1024
     window.addEventListener(
       'resize',
-      () => (this.isLg = window.innerWidth > 1024)
+      () => (this.isLg = window.innerWidth >= 1024)
     )
   },
   computed: mapState({
